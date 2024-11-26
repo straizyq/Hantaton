@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: "Montserrat Alternates";
+    background-color: white;
+    margin: 0;
+    overflow-y: hidden;
+}
+
+a,
+p,
+h1 {
+    margin: 0;
+}
+
+.container {
+
+    display: flex;
+}
+
+.left-side {
+    background-color: black;
+    height: 100vw;
+    color: white;
+    padding-top: 130px;
+    padding-left: 105px;
+    padding-right: 105px;
+}
+
+.left-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.left-btn {
+    color: black;
+    text-decoration: none;
+    background: #F6D951;
+    border-radius: 20px;
+    padding: 15px 90px;
+    margin-top: 33px;
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 0.02em;
+    transition: 0.5s;
+}
+.left-btn:hover {
+    background-color: #ddc249;
+}
+
+.dost {
+    padding: 15px 96px;
+}
+
+.exit {
+    padding: 15px 143px;
+}
+
+.left-nickname {
+    font-weight: 700;
+    font-size: 32px;
+    margin-top: 56px;
+    margin-bottom: 30px;
+}
+.right-info {
+    display: flex;
+}
+.right-infos {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 43px;
+    align-items: center;
+}
+.right-input {
+    margin-left: 54px;
+    width: 786px;
+    padding: 26px 0;
+    border: none;
+    background-color: #D9D9D9;
+}

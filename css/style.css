@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+    font-family: "Montserrat Alternates";
+    margin: 0;
+    color: white;
+    background-color: black;
+}
+h1, p {
+    margin: 0;
+}
+a {
+    display: inline-block;
+}
+.container {
+    max-width: 1700px;
+    margin: 0 auto;
+}
+header {
+    margin-top: 36px;
+}
+header .container {
+    display: flex;
+    justify-content: center;
+}
+.menu-links {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 36px;
+    margin-right: 47px;
+    transition: 0.5s;
+}
+.menu-links:hover {
+    opacity: 0.7;
+    scale: 1.1;
+}
+.welcome {
+    background-image: url("/img/ee01f68c-f04f-5861-a2a8-5dad81d6dbff.png");
+    margin-top: -100px;
+    padding-top: 260px;
+    padding-bottom: 260px;
+    background-color: rgba(black, black, black, 0.5);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.welcome-title {
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 117px;
+    width: 884px;
+}
+.welcome-text {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: rgba(255, 255, 255, 0.5);
+    width: 884px;
+    margin-bottom: 70px;
+    margin-top: 21px;
+}
+.btn {
+    text-decoration: none;
+    color: black;
+    background-color: #F6D951;
+    padding: 31px 41px;
+    border-radius: 14px;
+    font-weight: 700;
+    font-size: 32px;
+    transition: 0.5s;
+}
+.btn:hover {
+    background-color: #bea73e;
+}
+.talents {
+    background-color: white;
+    padding-top: 40px;
+    color: black;
+    text-align: center;
+    padding-bottom: 200px;
+}
+.talents .container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.talents-title {
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 93px;
+    margin-bottom: 38px;
+}
+.talents-text {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    color: rgba(0, 0, 0, 0.7);
+}
+.cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.card {
+    width: 474px;
+    height: 454px;
+    filter: drop-shadow(0px 4px 24.6px rgba(0, 0, 0, 0.25));
+    border-radius: 35px;
+}
+.f {
+    background-image: url("/img/1-18877-1514363749-3752\ 1.png");
+}
+.s {
+    background-image: url("/img/4a38d97d-fa32-55de-b3dd-29abaeb1d2eb\ 1.png");
+}
+.t {
+    background-image: url("/img/6d7a6b94-84b4-5add-83d5-1234cf496b3e\ 1.png");
+}
+footer {
+    background-color: white;
+    color: black;
+    padding: 40px 0;
+}
+footer .container {
+    display: flex;
+    justify-content: center;
+}
